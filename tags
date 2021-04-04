@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/anousonefs/Documents/flask/flask_rest_api/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/08b1c49/
+CityModel	app.py	/^class CityModel(db.Model):$/;"	c
+WeatherCity	app.py	/^class WeatherCity(Resource):$/;"	c
+__repr__	app.py	/^    def __repr__(self):$/;"	m	class:CityModel
+api	app.py	/^api = Api(app)$/;"	v
+app	app.py	/^app = Flask(__name__)$/;"	v
+db	app.py	/^db = SQLAlchemy(app)$/;"	v
+get	app.py	/^    def get(self, city_id):$/;"	m	class:WeatherCity
+id	app.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:CityModel
+mycity	app.py	/^mycity = {$/;"	v
+name	app.py	/^    name = db.Column(db.String(100), nullable=False)$/;"	v	class:CityModel
+notFoundCity	app.py	/^def notFoundCity(city_id):$/;"	f
+people	app.py	/^    people = db.Column(db.String(100), nullable=False)$/;"	v	class:CityModel
+post	app.py	/^    def post(self, city_id):$/;"	m	class:WeatherCity
+python.linting.enabled	.vscode/settings.json	/^    "python.linting.enabled": true$/;"	b
+python.linting.flake8Enabled	.vscode/settings.json	/^    "python.linting.flake8Enabled": true,$/;"	b
+python.linting.pylintEnabled	.vscode/settings.json	/^    "python.linting.pylintEnabled": false,$/;"	b
+temp	app.py	/^    temp = db.Column(db.String(100), nullable=False)$/;"	v	class:CityModel
+weather	app.py	/^    weather = db.Column(db.String(100), nullable=False)$/;"	v	class:CityModel
+weather_city	README.md	/^# weather_city$/;"	c
